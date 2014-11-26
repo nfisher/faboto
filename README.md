@@ -3,17 +3,24 @@ faboto
 
 # First Time Setup
 
+```
 git clone git@github.com:hailocab/faboto.git
 cd faboto
 sudo pip install virtualenv
 source bin/activate
-pip install
+pip install -r requirements.txt
+```
 
 # Normal workflow
 
+Below is the workflow to list the running instances in the default eu-west-1 zone.
+
+```
 cd faboto
 source bin/activate
 fab ec2.ls
+```
+
 
 # Common Usage
 
