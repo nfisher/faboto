@@ -13,6 +13,7 @@ import nginxlb
 import puppet
 import re
 import s3
+import cmd
 
 
 env.skip_bad_hosts = True

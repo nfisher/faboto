@@ -55,3 +55,6 @@ target/
 
 /bin/
 /include/
+
+# Vim swap files
+*.sw?

@@ -130,7 +130,7 @@ def config(region_name=DEFAULT_REGION):
             conn.import_key_pair(user, f.read())
             print('Uploaded key as {0}'.format(user))
     except IOError:
-        print('Unable to read id_rsa key.')
+        print('Unable to read id_rsa.pub key.')
     except exception.EC2ResponseError as ec2ex:
         print(ec2ex.error_message)
 
